@@ -1,1 +1,1 @@
-<?php define("BASE_URL", "http://localhost/phpmvc/public");?>
+<?php define("BASE_URL", "//".trim("{$_SERVER['HTTP_HOST']}/{$_SERVER['REQUEST_URI']}","/"));?>
